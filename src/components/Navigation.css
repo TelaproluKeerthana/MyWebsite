@@ -97,21 +97,21 @@
 }
 
 .nav-item.selected {
-  background: #0000aa;
-  border-color: #00ff00;
+  background: #00cc00;
+  border-color: #00cc00;
   box-shadow: 
-    0 0 20px rgba(0, 255, 0, 0.6),
-    inset 0 0 15px rgba(0, 255, 0, 0.3);
+    0 0 20px rgba(0, 204, 0, 0.6),
+    inset 0 0 15px rgba(0, 204, 0, 0.3);
 }
 
 .nav-item.selected .nav-label {
-  color: #00ff00;
+  color: #ffffff;
   font-weight: bold;
-  text-shadow: 0 0 8px #00ff00;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 .nav-item.selected .nav-description {
-  color: #00cc00;
+  color: #ffffff;
 }
 
 .nav-item.selected.focused {

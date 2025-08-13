@@ -27,7 +27,7 @@ const ContentArea = ({ selectedNav }) => {
               <h3>Professional Summary</h3>
               <p>Name: Keerthana Telaprolu</p>
               <p>Role: Software Engineer @ Januity Health</p>
-              <p>Experience: 2 Years</p>
+              <p>Experience: 2+ Years</p>
               <p>Location: California, USA</p>
               
               <h3>Technical Skills</h3>
