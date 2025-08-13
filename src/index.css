@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'VT323', 'Courier New', 'Monaco', 'Menlo', 'Consolas', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000080;
+  color: #00ff00;
+  overflow: hidden;
+}
+
+code {
+  font-family: 'Share Tech Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+}
+
+/* Ensure no default margins or padding */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
