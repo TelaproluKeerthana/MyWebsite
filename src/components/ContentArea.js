@@ -7,12 +7,10 @@ const ContentArea = ({ selectedNav }) => {
       case 'home':
         return (
           <div className="content-home">
-            <h2>WELCOME TO MY PORTFOLIO</h2>
+            <h2>Hi! I'm Keerthana</h2>
             <div className="system-info">
               <p>Portfolio Status: ACTIVE</p>
               <p>Current Time: {new Date().toLocaleString()}</p>
-              <p>Projects: 3+ Completed</p>
-              <p>Skills: Full Stack Development</p>
             </div>
             <div className="welcome-message">
               <p>Welcome to my developer portfolio built with a retro aesthetic.</p>
@@ -27,22 +25,17 @@ const ContentArea = ({ selectedNav }) => {
             <h2>DEVELOPER PROFILE</h2>
             <div className="about-content">
               <h3>Professional Summary</h3>
-              <p>Name: [Your Name]</p>
-              <p>Role: Full Stack Developer</p>
-              <p>Experience: [X] Years</p>
-              <p>Location: [Your City, Country]</p>
+              <p>Name: Keerthana Telaprolu</p>
+              <p>Role: Software Engineer @ Januity Health</p>
+              <p>Experience: 2 Years</p>
+              <p>Location: California, USA</p>
               
               <h3>Technical Skills</h3>
-              <p>Frontend: React, Vue.js, HTML5, CSS3, JavaScript</p>
-              <p>Backend: Node.js, Python, Java, PHP</p>
-              <p>Database: MongoDB, MySQL, PostgreSQL</p>
-              <p>DevOps: Docker, AWS, CI/CD, Git</p>
-              
-              <h3>Portfolio Features</h3>
-              <p>Framework: React 18.0 with Hooks</p>
-              <p>Styling: Custom CSS with Retro Theme</p>
-              <p>Responsive: Mobile-First Design</p>
-              <p>Performance: Optimized for Speed</p>
+              <p>Languages: Java, Python, JavaScript, SQL, C#</p>
+              <p>Frameworks/Libraries: Spring, Spring Boot, JUnit, Hibernate, Selenium, Django, React, Socket.io, Mockito</p>
+              <p>Databases: PostgreSQL, SQL Server</p>
+              <p>Developer Tools: Git, GitHub, Docker, Kubernetes, Apache Kafka, Maven, Fiddler, JProfiler</p>
+              <p>Cloud Platforms: AWS (S3, EC2, SQS), Azure, GCP, Firebase</p>
             </div>
           </div>
         );
@@ -80,10 +73,10 @@ const ContentArea = ({ selectedNav }) => {
             <h2>CONTACT INFORMATION</h2>
             <div className="contact-info">
               <h3>Professional Contact</h3>
-              <p>Email: [your.email@example.com]</p>
-              <p>LinkedIn: [linkedin.com/in/yourprofile]</p>
-              <p>GitHub: [github.com/yourusername]</p>
-              <p>Phone: [+1 (XXX) XXX-XXXX]</p>
+              <p>Email: keerthana.telaprolu@gmail.com</p>
+              <p>LinkedIn: https://www.linkedin.com/in/keerthana-telaprolu/</p>
+              <p>GitHub: https://github.com/keerthana-telaprolu</p>
+              <p>Phone: +1 (203) 539-1433</p>
               
               <h3>Availability</h3>
               <p>Response Time: Within 24 hours</p>
@@ -94,27 +87,27 @@ const ContentArea = ({ selectedNav }) => {
           </div>
         );
       
-      case 'system':
-        return (
-          <div className="content-system">
-            <h2>PORTFOLIO STATISTICS</h2>
-            <div className="system-stats">
-              <h3>Development Metrics</h3>
-              <p>Years of Experience: [X] Years</p>
-              <p>Projects Completed: 15+</p>
-              <p>Technologies Mastered: 10+</p>
-              <p>Client Satisfaction: 100%</p>
+      // case 'system':
+      //   return (
+      //     <div className="content-system">
+      //       <h2>PORTFOLIO STATISTICS</h2>
+      //       <div className="system-stats">
+      //         <h3>Development Metrics</h3>
+      //         <p>Years of Experience: [X] Years</p>
+      //         <p>Projects Completed: 15+</p>
+      //         <p>Technologies Mastered: 10+</p>
+      //         <p>Client Satisfaction: 100%</p>
               
-              <h3>Recent Activity</h3>
-              <div className="log-entries">
-                <p>[INFO] Portfolio website created</p>
-                <p>[INFO] React components implemented</p>
-                <p>[INFO] Retro theme applied</p>
-                <p>[STATUS] Ready for client review</p>
-              </div>
-            </div>
-          </div>
-        );
+      //         <h3>Recent Activity</h3>
+      //         <div className="log-entries">
+      //           <p>[INFO] Portfolio website created</p>
+      //           <p>[INFO] React components implemented</p>
+      //           <p>[INFO] Retro theme applied</p>
+      //           <p>[STATUS] Ready for client review</p>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   );
       
       default:
         return <div>Select a navigation item</div>;

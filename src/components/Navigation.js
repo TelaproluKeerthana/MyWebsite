@@ -7,7 +7,7 @@ const Navigation = ({ selectedNav, onNavSelect }) => {
     { id: 'about', label: 'ABOUT', description: 'Developer Profile' },
     { id: 'projects', label: 'PROJECTS', description: 'Portfolio Showcase' },
     { id: 'contact', label: 'CONTACT', description: 'Get In Touch' },
-    { id: 'system', label: 'SYSTEM', description: 'Portfolio Statistics' }
+    // { id: 'system', label: 'SYSTEM', description: 'Portfolio Statistics' }
   ], []);
 
   const currentIndex = navItems.findIndex(item => item.id === selectedNav);
